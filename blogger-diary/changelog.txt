@@ -1,0 +1,48 @@
+== 1.0.11: 2024-09-13 ==
+	* Imp: removed styling code reverted.
+
+== 1.0.10: 2024-09-12 ==
+	* Fix: Sticky sidebar design issue fixed.
+	* Fix: Design Issue updated.
+
+== 1.0.9: 2024-07-23 ==
+	* Fix: Dark mode widget hover color issue fixed.
+
+== 1.0.8: 2024-06-05 ==
+	* Imp: 404 page responsive design tweaks done.
+	* Fix: archive grid layout spacing fixed.
+	Some design tweaks done.
+
+== 1.0.7: 2024-05-12 ==
+	* Fix: Single post dark mode css issue fixed.
+
+== 1.0.6: 2024-04-05 ==
+	* New: Site mode functionality added.
+	* Fix: Archive classic and grid layout design issue fixed.
+	* Imp: Some design tweaks done.
+	* Imp: Responsive design issue fixed.
+
+== 1.0.5: 2024-03-22 ==
+	* New: Background animation enable disable option added.
+	* Fix: Header sidebar toggle close button issue fixed.
+
+== 1.0.4: 2024-03-15 ==
+	* Fix: Responsive sidebar margin fixed.
+	* Fix: post navigation mobile issue fixed.
+	* Imp: Unwanted styling code removed.
+
+== 1.0.3: 2024-03-07 ==
+	* Fix: Single post title font issue fixed.
+	* Fix: Animated background issue fixed for header and custom header.
+	* Imp: Some design improvement done.
+
+== 1.0.2 : 2024-02-23 ==
+	* Fix: responsive sticky header sidebar issue fixed.
+	* Fix: Some design glitch fixed.
+
+== 1.0.1 : 2024-02-12 ==
+	* Fix: Single post page underline links.
+	* Fix: Mobile menu keyboard navigation.
+
+== 1.0.0 : 2024-02-06 ==
+	* Submit theme on wordpress.org trac.
