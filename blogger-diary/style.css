@@ -4,9 +4,9 @@ Theme URI:          https://demo.mysterythemes.com/wp-diary-demos/
 Author:             Mystery Themes
 Author URI:         https://mysterythemes.com
 Description:        Blogger Diary is a charming WordPress theme designed for those who love blogging and want simple yet sophisticated layouts for their online diaries. The theme offers a visually appealing canvas for creative thoughts, stories, and adventures, ensuring an optimal reading experience on any device. With responsive and mobile-friendly layouts, Blogger Diary meets customization expectations, allowing users to easily personalize their web-diary. Whether seasoned or new to blogging, this theme elevates your online diary and allows you to embrace storytelling, creating a lasting impression on your readers.Check the demo at https://demo.mysterythemes.com/child-theme/blogger-diary/
-Version:            1.0.11
-Requires at least:  4.7
-Tested up to:       6.6
+Version:            1.0.12
+Requires at least:  5.0
+Tested up to:       6.7
 Requires PHP:       7.4
 License:            GNU General Public License v3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
@@ -726,6 +726,10 @@ background animation CSS
   margin-bottom: 10px;
 }
 
+.form-submit .submit, .form-submit .submit:hover{
+  color:#fff;
+}
+
 /*--------------------------------------------------------------
 Site Mode CSS
 --------------------------------------------------------------*/
@@ -778,7 +782,8 @@ Dark Mode CSS
   background: #212121;
 }
 
-.site-mode--dark .site-title a {
+.site-mode--dark .site-title a, .site-mode--dark #primary .entry-footer a,
+.site-mode--dark .page-header .page-title, .site-mode--dark .wp-block-search__label {
 	color: #fff;
 }
 
