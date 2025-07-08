@@ -1,3 +1,7 @@
+== 1.0.13: 2025-07-08 ==
+	* Imp: Dark mode css design improvement.
+	* Fix: Front design and dynamic color design issue fixed.
+
 == 1.0.12: 2025-03-03 ==
 	* Imp: Dark mode css design improvement.
 	* Fix: Dynamic color design issue fixed.

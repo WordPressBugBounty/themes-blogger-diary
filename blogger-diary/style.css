@@ -4,9 +4,9 @@ Theme URI:          https://demo.mysterythemes.com/wp-diary-demos/
 Author:             Mystery Themes
 Author URI:         https://mysterythemes.com
 Description:        Blogger Diary is a charming WordPress theme designed for those who love blogging and want simple yet sophisticated layouts for their online diaries. The theme offers a visually appealing canvas for creative thoughts, stories, and adventures, ensuring an optimal reading experience on any device. With responsive and mobile-friendly layouts, Blogger Diary meets customization expectations, allowing users to easily personalize their web-diary. Whether seasoned or new to blogging, this theme elevates your online diary and allows you to embrace storytelling, creating a lasting impression on your readers.Check the demo at https://demo.mysterythemes.com/child-theme/blogger-diary/
-Version:            1.0.12
+Version:            1.0.13
 Requires at least:  5.0
-Tested up to:       6.7
+Tested up to:       6.8
 Requires PHP:       7.4
 License:            GNU General Public License v3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
@@ -121,6 +121,18 @@ widget Css
 .wp_diary_author_info .author-social {
   margin: 10px 0px 0px;
   text-align: left;
+}
+
+.entry-footer>span.tags-links{
+  font-weight: 600;
+}
+
+.sidebar-header{
+  z-index: 9999;
+}
+
+.mt-header-extra-icons .sidebar-header.mt-form-close{
+  z-index: 99999;
 }
 
 /********************************************************
@@ -756,10 +768,6 @@ Site Mode CSS
 /*--------------------------------------------------------------
 Dark Mode CSS
 --------------------------------------------------------------*/
-.site-mode--dark #comments h2.comments-title,
-.site-mode--dark .comment-author .fn .url, .site-mode--dark #comments h3 {
-	color: #fff;
-}
 
 .site-mode--dark .widget_archive a,
 .site-mode--dark .widget_categories a,
@@ -778,14 +786,20 @@ Dark Mode CSS
 }
 
 .single.site-mode--dark .content-area article,
-.site-mode--dark #respond {
+.site-mode--dark #respond, .site-mode--dark  .mt-related-post-title  {
   background: #212121;
 }
 
-.site-mode--dark .site-title a, .site-mode--dark #primary .entry-footer a,
-.site-mode--dark .page-header .page-title, .site-mode--dark .wp-block-search__label {
+.site-mode--dark #comments h2.comments-title,
+.site-mode--dark .comment-author .fn .url, .site-mode--dark #comments h3,.site-mode--dark .site-title a, .site-mode--dark #primary .entry-footer a,
+.site-mode--dark .page-header .page-title, .site-mode--dark .wp-block-search__label,.site-mode--dark .navigation .nav-links a:hover, .site-mode--dark .mt-author-bio{  
 	color: #fff;
 }
+
+.site-mode--dark .navigation .nav-links a:hover{
+  border-color:#fff;
+}
+
 
 .site-mode--dark.single .byline {
   color: #bfbfbf;

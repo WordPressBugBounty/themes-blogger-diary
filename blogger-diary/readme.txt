@@ -3,7 +3,7 @@
 Contributors:       mysterythemes
 Tags:               blog, portfolio, news, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, footer-widgets, post-formats, rtl-language-support, theme-options, translation-ready
 Requires at least:  5.0
-Tested up to:       6.7
+Tested up to:       6.8
 Requires PHP:       7.4
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
